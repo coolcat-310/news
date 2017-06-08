@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Scrape news</title>
+    <link rel="shortcut icon" type="image/ico" href="http://example.com/favicon.ico"/>
+    <title>Scrape job posting</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -31,8 +32,11 @@
         <div id="navbar" class="collapse navbar-collapse">
 
             <ul class="nav navbar-nav navbar-right">
-                <li class="active" id="scrape"><a href="#">Scrape</a></li>
-
+                <form action="/scrape" method="Get">>
+                    <li class="active">
+                        <button id="scrape" type="submit" class="btn btn-primary">SCRAPE</button>
+                    </li>
+                </form>
             </ul>
         </div>
         <!--/.nav-collapse -->
@@ -47,10 +51,10 @@
             <br>
             <br>
             <h2>
-                News Scrapper
+                Job Scrapper
             </h2>
             <p>
-                Because we scrape the news and deliver it to you.
+                Because we scrape the jobs and deliver it to you.
                 Just push the Scrape button.
             </p>
 
@@ -59,7 +63,14 @@
 </div>
 <!--End of Jumbotron-->
 <div class="container news">
-    <div id="articles"></div>
+    <div class="row">
+        <div class="col col-lg-6">
+            <div id="articles"></div>
+        </div>
+        <div class="col col-lg-6 note">
+            <div class="jumbotron" id="notes"></div>
+        </div>
+    </div>
 </div>
 
 
