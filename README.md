@@ -2,7 +2,7 @@
 
 
 ## Live Link 
- - 
+ - https://jn-news.herokuapp.com/
 
 ## Description on how to use the app
 This application scrapes web postings from craiglist's job board and the information along with the author's notes. 
