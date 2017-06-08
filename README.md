@@ -19,3 +19,4 @@ This application scrapes web postings from craiglist's job board and the informa
 
 
 -------------
+<img width="1258" alt="screen shot 2017-06-08 at 11 55 44" src="https://user-images.githubusercontent.com/16736074/26945706-7fec4bae-4c41-11e7-83fb-ec6636ce5fbc.png">
